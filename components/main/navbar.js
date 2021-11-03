@@ -11,13 +11,13 @@ export default function Navbar() {
           </Link>
           <div className={styles.Nav_actions}>
             <Link href='/'>
-              <a href={'/'}>Home</a>
+              <a>Home</a>
             </Link>
             <Link href='/'>
-              <a href={'/'}>Home</a>
+              <a>Home</a>
             </Link>
             <Link href='/'>
-              <a href={'/'}>Home</a>
+              <a>Home</a>
             </Link>
           </div>
         </div>
