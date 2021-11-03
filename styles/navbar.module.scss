@@ -1,0 +1,25 @@
+.Wrapper{
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: #fff;
+  z-index: 5;
+}
+
+.Inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+  }
+}
+
+.Nav_actions {
+  display: flex;
+  column-gap: 20px;
+
+}

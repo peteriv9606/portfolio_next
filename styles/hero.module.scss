@@ -1,0 +1,45 @@
+.Wrapper {
+  position: relative;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+}
+.Wrapper_bg {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 65px);
+  width: 100%;
+  background: #dd1b16;
+  background: linear-gradient(45deg, #dd1b16 20%, #61dbfb 80%);
+  //transform: skewY(-30deg);
+  z-index: -10;
+}
+
+.Inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.Card {
+  padding: 30px 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 5vh solid transparent;
+  border-left: 2rem solid rgba(97, 219, 251, 1);
+  border-right: 2rem solid rgba(221, 27, 22, 1);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+  >h1{
+    margin-bottom: 10px;
+    font-family: "Lato", sans-serif;
+  }
+  >h4{
+    font-family: "Lato", sans-serif;
+  }
+}
