@@ -1,0 +1,47 @@
+.Wrapper {
+}
+
+.Projects_wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.Project {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+  > img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+}
+
+.Reverse>div{
+  order: -1;
+}
+
+.Project_details {
+  h4 {
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: justify;
+    line-height: 1.4;
+  }
+}
+.Project_actions {
+  display: flex;
+  justify-content: space-around;
+}
