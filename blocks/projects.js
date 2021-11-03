@@ -10,7 +10,7 @@ export default function Projects() {
           <h2>Projects</h2>
           <h3>"Slow progress is better than no progress"</h3>
           <div className={styles.Projects_wrapper}>
-
+            {console.log("THIS IS A TEST")}
             {
               projectsData.map((project, index) => {
                 return <div
